@@ -3,11 +3,15 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="exe.MDM_Test_Automation">
+      <class name="exe.Arthadb_Automation">
         <methods>
-          <include name="MDM_Login"/>
+          <include name="ArthaDB_Record_Type_Check_TC008"/>
+          <include name="ArthaDB_Customer_FirstName_Check_TC009"/>
+          <include name="ArthaDB_ChargeSign_Check_TC007"/>
+          <include name="ArthaDB_Customers_SSN_Check_TC010"/>
+          <include name="DB_Details"/>
         </methods>
-      </class> <!-- exe.MDM_Test_Automation -->
+      </class> <!-- exe.Arthadb_Automation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
