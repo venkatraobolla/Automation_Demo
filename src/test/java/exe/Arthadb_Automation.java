@@ -585,29 +585,4 @@ public class Arthadb_Automation
 			Assert.assertEquals("Customer - PrimaryPhoneNumber check is Failed at SSN="+Phone_r, 0, Noc);
 		}
 	}
-	//Customer_MailingAddressZipCode_Check Test Script
-	@Test(priority=14)
-	public void ArthaDB_Zipcode_TC014() throws SQLException
-	{
-		ResultSet rs=stmt.executeQuery("SELECT * FROM arthadb.customers where MailingAddressZipCode is null  or length(MailingAddressZipCode) !=5");
-		List<String> zipcode_rs=new ArrayList<String>();
-		while(rs.next())
-		{
-			Noc=rs.getRow();
-			zipcode_rs.add(rs.getString("SSN"));
-		}
-		if(Noc==0)
-		{
-			Assert.assertEquals("Customer - MailingAddressZipCode check is Passed",0,Noc);
-		}
-		else
-		{
-			StringBuffer zipcode_r=new StringBuffer();
-			for(int k=0;k<zipcode_rs.size();k++)
-			{
-				zipcode_r.append(zipcode_rs.get(k)+",");
-			}
-			Assert.assertEquals("Customer - MailingAddressZipCode check is Failed at SSN="+zipcode_r, 0, Noc);
-		}
-	}
 }
