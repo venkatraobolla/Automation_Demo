@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+    <classes>
+   <!--    
+   	  <class name="exe.HS_TS001_ConnCheck"/>
+      <class name="exe.HS_TS002_RecCount"/>
+      <class name="exe.HS_TS003_Record_Type_DataValidation"/>
+	  <class name="exe.HS_TS004_Mandatory_Column_Check"/>
+      <class name="exe.HS_TS005_Contract_SchedRef_Check"/>
+      <class name="exe.HS_TS006_Phone_Number_Check"/>
+      <class name="exe.HS_TS007_Premise_Name_Check"/>
+      <class name="exe.HS_TS008_AEPCustomer_Details_Check"/>
+      <class name="exe.HS_TS009_AEPAudit_Details_Check"/>
+      <class name="exe.HS_TS010_PaymentsFromPartner_Check"/>
+      <class name="exe.ExcelRun"/> -->
+      <class name="exe.Arthadb_Automation"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
