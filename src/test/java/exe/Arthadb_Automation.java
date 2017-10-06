@@ -607,7 +607,7 @@ public class Arthadb_Automation
 				{
 					zipcode_r.append(zipcode_rs.get(k)+",");
 				}
-				Assert.assertEquals("Customer - PrimaryPhoneNumber check is Failed at SSN="+zipcode_r, 0, Noc);
+				Assert.assertEquals("Customer - MailingAddressZipCode check is Failed at SSN="+zipcode_r, 0, Noc);
 			}
 		}
 }
