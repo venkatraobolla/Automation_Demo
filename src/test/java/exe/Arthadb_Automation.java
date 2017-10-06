@@ -559,7 +559,7 @@ public class Arthadb_Automation
 						  e1.printStackTrace();
 				  } 
 	} 
-	
+	// added
 	//Customer_PrimaryPhoneNumber_Check Test Script
 	@Test(priority=13)
 	public void ArthaDB_PrimaryPhoneNumber_TC013() throws SQLException
