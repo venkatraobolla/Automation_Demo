@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="3" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="319" started-at="2017-10-09T05:23:13Z" finished-at="2017-10-09T05:23:13Z">
+  <suite name="Suite" duration-ms="301" started-at="2017-10-09T05:55:50Z" finished-at="2017-10-09T05:55:50Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="319" started-at="2017-10-09T05:23:13Z" finished-at="2017-10-09T05:23:13Z">
+    <test name="Test" duration-ms="301" started-at="2017-10-09T05:55:50Z" finished-at="2017-10-09T05:55:50Z">
       <class name="exe.ADS_Automation_Demo">
-        <test-method status="PASS" signature="DB_Details()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="DB_Details" is-config="true" duration-ms="260" started-at="2017-10-09T10:53:13Z" finished-at="2017-10-09T10:53:13Z">
+        <test-method status="PASS" signature="DB_Details()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="DB_Details" is-config="true" duration-ms="244" started-at="2017-10-09T11:25:50Z" finished-at="2017-10-09T11:25:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DB_Details -->
-        <test-method status="FAIL" signature="ArthaDB_Customer_First_Last_Name_Check_TC001()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="ArthaDB_Customer_First_Last_Name_Check_TC001" duration-ms="11" started-at="2017-10-09T10:53:13Z" finished-at="2017-10-09T10:53:13Z">
+        <test-method status="FAIL" signature="ArthaDB_Customer_First_Last_Name_Check_TC001()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="ArthaDB_Customer_First_Last_Name_Check_TC001" duration-ms="12" started-at="2017-10-09T11:25:50Z" finished-at="2017-10-09T11:25:50Z">
           <exception class="junit.framework.AssertionFailedError">
             <message>
-              <![CDATA[CUSTOMERS-First & Last Name check is Failed at SSN=123-45-6791,123-45-6792, expected:<0> but was:<2>]]>
+              <![CDATA[CUSTOMERS-First & Last Name check is Failed at SSN=123-45-6782,123-45-6783, expected:<0> but was:<2>]]>
             </message>
             <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError: CUSTOMERS-First & Last Name check is Failed at SSN=123-45-6791,123-45-6792, expected:<0> but was:<2>
+              <![CDATA[junit.framework.AssertionFailedError: CUSTOMERS-First & Last Name check is Failed at SSN=123-45-6782,123-45-6783, expected:<0> but was:<2>
 	at junit.framework.Assert.fail(Assert.java:57)
 	at junit.framework.Assert.failNotEquals(Assert.java:329)
 	at junit.framework.Assert.assertEquals(Assert.java:78)
@@ -53,11 +53,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArthaDB_Customer_First_Last_Name_Check_TC001 -->
-        <test-method status="PASS" signature="DB_Details()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="DB_Details" is-config="true" duration-ms="7" started-at="2017-10-09T10:53:13Z" finished-at="2017-10-09T10:53:13Z">
+        <test-method status="PASS" signature="DB_Details()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="DB_Details" is-config="true" duration-ms="7" started-at="2017-10-09T11:25:50Z" finished-at="2017-10-09T11:25:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DB_Details -->
-        <test-method status="FAIL" signature="ArthaDB_Customers_SSN_Check_TC002()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="ArthaDB_Customers_SSN_Check_TC002" duration-ms="4" started-at="2017-10-09T10:53:13Z" finished-at="2017-10-09T10:53:13Z">
+        <test-method status="FAIL" signature="ArthaDB_Customers_SSN_Check_TC002()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="ArthaDB_Customers_SSN_Check_TC002" duration-ms="5" started-at="2017-10-09T11:25:50Z" finished-at="2017-10-09T11:25:50Z">
           <exception class="junit.framework.AssertionFailedError">
             <message>
               <![CDATA[CUSTOMERS- SSN check is Failed at CustomerPK=5, expected:<0> but was:<1>]]>
@@ -99,17 +99,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArthaDB_Customers_SSN_Check_TC002 -->
-        <test-method status="PASS" signature="DB_Details()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="DB_Details" is-config="true" duration-ms="5" started-at="2017-10-09T10:53:13Z" finished-at="2017-10-09T10:53:13Z">
+        <test-method status="PASS" signature="DB_Details()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="DB_Details" is-config="true" duration-ms="5" started-at="2017-10-09T11:25:50Z" finished-at="2017-10-09T11:25:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DB_Details -->
-        <test-method status="FAIL" signature="ArthaDB_PrimaryPhoneNumber_TC003()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="ArthaDB_PrimaryPhoneNumber_TC003" duration-ms="3" started-at="2017-10-09T10:53:13Z" finished-at="2017-10-09T10:53:13Z">
+        <test-method status="FAIL" signature="ArthaDB_PrimaryPhoneNumber_TC003()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="ArthaDB_PrimaryPhoneNumber_TC003" duration-ms="2" started-at="2017-10-09T11:25:50Z" finished-at="2017-10-09T11:25:50Z">
           <exception class="junit.framework.AssertionFailedError">
             <message>
-              <![CDATA[Customer - PrimaryPhoneNumber check is Failed at SSN=123-45-6789,123-45-6790, expected:<0> but was:<2>]]>
+              <![CDATA[Customer - PrimaryPhoneNumber check is Failed at SSN=123-45-6780,123-45-6781, expected:<0> but was:<2>]]>
             </message>
             <full-stacktrace>
-              <![CDATA[junit.framework.AssertionFailedError: Customer - PrimaryPhoneNumber check is Failed at SSN=123-45-6789,123-45-6790, expected:<0> but was:<2>
+              <![CDATA[junit.framework.AssertionFailedError: Customer - PrimaryPhoneNumber check is Failed at SSN=123-45-6780,123-45-6781, expected:<0> but was:<2>
 	at junit.framework.Assert.fail(Assert.java:57)
 	at junit.framework.Assert.failNotEquals(Assert.java:329)
 	at junit.framework.Assert.assertEquals(Assert.java:78)
@@ -145,15 +145,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArthaDB_PrimaryPhoneNumber_TC003 -->
-        <test-method status="PASS" signature="DB_Details()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="DB_Details" is-config="true" duration-ms="5" started-at="2017-10-09T10:53:13Z" finished-at="2017-10-09T10:53:13Z">
+        <test-method status="PASS" signature="DB_Details()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="DB_Details" is-config="true" duration-ms="5" started-at="2017-10-09T11:25:50Z" finished-at="2017-10-09T11:25:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- DB_Details -->
-        <test-method status="PASS" signature="ArthaDB_Customer_Details_Update_Check_TC004()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="ArthaDB_Customer_Details_Update_Check_TC004" duration-ms="1" started-at="2017-10-09T10:53:13Z" finished-at="2017-10-09T10:53:13Z">
+        <test-method status="PASS" signature="ArthaDB_Customer_Details_Update_Check_TC004()[pri:0, instance:exe.ADS_Automation_Demo@4b9e13df]" name="ArthaDB_Customer_Details_Update_Check_TC004" duration-ms="2" started-at="2017-10-09T11:25:50Z" finished-at="2017-10-09T11:25:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ArthaDB_Customer_Details_Update_Check_TC004 -->
       </class> <!-- exe.ADS_Automation_Demo -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
