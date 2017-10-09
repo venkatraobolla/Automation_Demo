@@ -5,8 +5,7 @@
     <classes>
       <class name="exe.ADS_Automation_Demo">
         <methods>
-          <include name="ArthaDB_Customers_SSN_Check_TC002"/>
-          <include name="ArthaDB_Customer_First_Last_Name_Check_TC001"/>
+          <include name="ArthaDB_Customer_FirstName_Check_TC001"/>
           <include name="DB_Details"/>
           <include name="ArthaDB_PrimaryPhoneNumber_TC003"/>
         </methods>
