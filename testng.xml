@@ -3,6 +3,7 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
+    <class name="exe.ADS_Automation_Demo"/>
    <!--    
    	  <class name="exe.HS_TS001_ConnCheck"/>
       <class name="exe.HS_TS002_RecCount"/>
@@ -14,8 +15,8 @@
       <class name="exe.HS_TS008_AEPCustomer_Details_Check"/>
       <class name="exe.HS_TS009_AEPAudit_Details_Check"/>
       <class name="exe.HS_TS010_PaymentsFromPartner_Check"/>
-      <class name="exe.ExcelRun"/> -->
-      <class name="exe.Arthadb_Automation"/>
+      <class name="exe.ExcelRun"/> 
+      <class name="exe.Arthadb_Automation"/>-->      
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
