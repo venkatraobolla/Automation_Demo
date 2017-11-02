@@ -3,14 +3,13 @@
 <suite name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
-      <class name="exe.ADS_Automation_Demo">
+      <class name="exe.Arthadb_Automation">
         <methods>
-          <include name="ArthaDB_Customers_SSN_Check_TC002"/>
-          <include name="ArthaDB_Customer_First_Last_Name_Check_TC001"/>
-          <include name="DB_Details"/>
-          <include name="ArthaDB_PrimaryPhoneNumber_TC003"/>
+          <include name="getDatabaseConnection"/>
+          <include name="tearDown"/>
+          <include name="ArthaDB_Customer_LastName_Check_TC004"/>
         </methods>
-      </class> <!-- exe.ADS_Automation_Demo -->
+      </class> <!-- exe.Arthadb_Automation -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
