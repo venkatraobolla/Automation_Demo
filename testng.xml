@@ -3,11 +3,12 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-    <class name="exe.DetabaseTesting"/>
+  <class name="exe.MDMAutomation"/>
    <!--    
    	<class name="exe.MDMAutomation"/>
       <class name="exe.ADS_Automation_Demo"/>
       <class name="exe.Arthadb_Automation"/>
+      <class name="exe.DetabaseTesting"/>
    	 -->      
     </classes>
   </test> <!-- Test -->
