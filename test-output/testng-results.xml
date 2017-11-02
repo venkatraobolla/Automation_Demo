@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
+    <line>
+      <![CDATA[Navigated to MDM Login Page]]>
+    </line>
+    <line>
+      <![CDATA[User successfully logged in]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="258" started-at="2017-11-01T04:27:18Z" finished-at="2017-11-01T04:27:18Z">
+  <suite name="Suite" duration-ms="26433" started-at="2017-11-02T06:05:07Z" finished-at="2017-11-02T06:05:33Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="258" started-at="2017-11-01T04:27:18Z" finished-at="2017-11-01T04:27:18Z">
-      <class name="exe.DetabaseTesting">
-        <test-method status="PASS" signature="dbConnection()[pri:0, instance:exe.DetabaseTesting@457e2f02]" name="dbConnection" is-config="true" duration-ms="229" started-at="2017-11-01T09:57:18Z" finished-at="2017-11-01T09:57:18Z">
+    <test name="Test" duration-ms="26433" started-at="2017-11-02T06:05:07Z" finished-at="2017-11-02T06:05:33Z">
+      <class name="exe.MDMAutomation">
+        <test-method status="PASS" signature="login()[pri:0, instance:exe.MDMAutomation@1b604f19]" name="login" duration-ms="17784" started-at="2017-11-02T11:35:07Z" finished-at="2017-11-02T11:35:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Navigated to MDM Login Page]]>
+            </line>
+            <line>
+              <![CDATA[User successfully logged in]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="domainConfiguration()[pri:0, instance:exe.MDMAutomation@1b604f19]" name="domainConfiguration" duration-ms="4256" started-at="2017-11-02T11:35:25Z" finished-at="2017-11-02T11:35:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dbConnection -->
-        <test-method status="PASS" signature="fetchData()[pri:0, instance:exe.DetabaseTesting@457e2f02]" name="fetchData" duration-ms="18" started-at="2017-11-01T09:57:18Z" finished-at="2017-11-01T09:57:18Z">
+        </test-method> <!-- domainConfiguration -->
+        <test-method status="PASS" signature="entitySelection()[pri:0, instance:exe.MDMAutomation@1b604f19]" name="entitySelection" duration-ms="4316" started-at="2017-11-02T11:35:29Z" finished-at="2017-11-02T11:35:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- fetchData -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:exe.DetabaseTesting@457e2f02]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-11-01T09:57:18Z" finished-at="2017-11-01T09:57:18Z">
+        </test-method> <!-- entitySelection -->
+        <test-method status="PASS" signature="webTable()[pri:0, instance:exe.MDMAutomation@1b604f19]" name="webTable" duration-ms="61" started-at="2017-11-02T11:35:33Z" finished-at="2017-11-02T11:35:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- exe.DetabaseTesting -->
+        </test-method> <!-- webTable -->
+      </class> <!-- exe.MDMAutomation -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
