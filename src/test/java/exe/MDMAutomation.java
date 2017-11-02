@@ -65,7 +65,7 @@ public class MDMAutomation {
 		Thread.sleep(2000);
 	}
 
-	//Test Script for Domain Configuration 
+	//Test Script for Domain Configuration functionality
 	@Test(priority=1)
 	public void domainConfiguration() throws InterruptedException {
 
